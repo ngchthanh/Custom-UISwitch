@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let switch1 = MySwitch(size: CGSize(width: 60, height: 30), isOn: false, isCorner: false, rotateAnimation: false, OnImg: nil, OffImg: nil, OnColor: UIColor.blue, OffColor: UIColor.darkGray)
+        let switch1 = MySwitch(size: CGSize(width: 60, height: 30), isOn: false, isCorner: false, rotateAnimation: false, OnImg: nil, OffImg: nil, OnColor: UIColor.green, OffColor: UIColor.red)
         switch1.frame.origin = CGPoint(x: 50, y: 50)
         view.addSubview(switch1)
         
