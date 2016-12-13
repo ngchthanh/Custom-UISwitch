@@ -12,6 +12,7 @@
 		DB7D48A01DFE446900AB59FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7D489E1DFE446900AB59FA /* Main.storyboard */; };
 		DB7D48A21DFE446900AB59FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7D48A11DFE446900AB59FA /* Assets.xcassets */; };
 		DB7D48A51DFE446900AB59FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7D48A31DFE446900AB59FA /* LaunchScreen.storyboard */; };
+		DB7D48AD1DFE450500AB59FA /* MySwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7D48AC1DFE450500AB59FA /* MySwitch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DB7D48A11DFE446900AB59FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB7D48A41DFE446900AB59FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB7D48A61DFE446900AB59FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB7D48AC1DFE450500AB59FA /* MySwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySwitch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				DB7D489A1DFE446900AB59FA /* AppDelegate.swift */,
 				DB7D489C1DFE446900AB59FA /* ViewController.swift */,
+				DB7D48AC1DFE450500AB59FA /* MySwitch.swift */,
 				DB7D489E1DFE446900AB59FA /* Main.storyboard */,
 				DB7D48A11DFE446900AB59FA /* Assets.xcassets */,
 				DB7D48A31DFE446900AB59FA /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB7D48AD1DFE450500AB59FA /* MySwitch.swift in Sources */,
 				DB7D489D1DFE446900AB59FA /* ViewController.swift in Sources */,
 				DB7D489B1DFE446900AB59FA /* AppDelegate.swift in Sources */,
 			);
@@ -300,6 +304,7 @@
 				DB7D48AB1DFE446900AB59FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
